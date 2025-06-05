@@ -1,5 +1,11 @@
+body {
+  text-align: center;
+  background-color: #2c2d4d;
+}
+
 .principal-text {
   line-height: 70px;
+  color: white;
 }
 
 .drum-image {
@@ -7,4 +13,57 @@
   height: 70px;
   vertical-align: middle;
   transform: translateY(-12px);
+}
+
+.principal-container {
+  margin-top: 150px;
+}
+.button {
+  width: 90px;
+  height: 90px;
+  background-repeat: no-repeat;
+  font-size: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.first-letter {
+  background-image: url("../img/tom1.png") !important;
+  background-position: left center;
+  background-size: 120px 120px;
+}
+
+.second-letter {
+  background-image: url("../img/tom2.png") !important;
+  background-position: left center;
+  background-size: 120px 120px;
+}
+
+.third-letter {
+  background-image: url("../img/tom3.png") !important;
+  background-position: left top;
+  background-size: 120px 120px;
+}
+
+.fourth-letter {
+  background-image: url("../img/tom4.png") !important;
+  background-position: left top;
+  background-size: 120px 120px;
+}
+
+.fifth-letter {
+  background-image: url("../img/snare.png") !important;
+  background-position: left top;
+  background-size: 120px 120px;
+}
+
+.sixth-letter {
+  background-image: url("../img/crash.png") !important;
+  background-position: left top;
+  background-size: 120px 120px;
+}
+
+.seventh-letter {
+  background-image: url("../img/kick.png") !important;
+  background-position: left top;
+  background-size: 120px 120px;
 }
