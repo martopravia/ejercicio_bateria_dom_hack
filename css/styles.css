@@ -1,0 +1,10 @@
+.principal-text {
+  line-height: 70px;
+}
+
+.drum-image {
+  width: 70px;
+  height: 70px;
+  vertical-align: middle;
+  transform: translateY(-12px);
+}
