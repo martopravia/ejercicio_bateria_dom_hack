@@ -2,7 +2,7 @@ const allButtons = document.querySelectorAll(".button");
 
 for (const button of allButtons) {
   button.addEventListener("click", function () {
-    const letter = this.textContent;
+    const letter = this.value;
     playSound(letter);
   });
 }
